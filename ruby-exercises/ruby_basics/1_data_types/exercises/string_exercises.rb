@@ -10,7 +10,7 @@ end
 
 def substrings(word)
   # return the first 4 letters from the word using substrings
-
+word[0,4]
 end
 
 def capitalize(word)
@@ -30,7 +30,7 @@ end
 
 def empty_string(string)
   # return true if the string is empty
-  string.nil?
+  string.empty?
 end
 
 def string_length(string)
@@ -45,4 +45,5 @@ end
 
 def space_remover(string)
   # remove all the spaces in the string using gsub
+ 
 end
